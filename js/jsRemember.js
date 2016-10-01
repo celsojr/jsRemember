@@ -8,7 +8,7 @@
  * jsRemember requires jStorage from Andris Reinman - www.jstorage.info
  *
  * Copyright(c) 2013 Celso Junior, celsojrfull@gmail.com
- * Plugin demo page: http://celsojr.com/demos/jsRemember/
+ * Plugin demo page: http://celsojr.com/demos/jsremember/
  *
  * NOTE: The file-input element will not be supported for security reasons.
  *
