@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="js/json2.js"></script>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jstorage.js"></script>
+<script src="js/jsRemember.js"></script>
+<title>LocalStorage</title>
+</head>
+<body>
+  <p>
+      Let's think about the following situation:<br>
+      Your customer fills in a boring form with a lot of fields and when he is almost done the browser crashes or the computer shuts down before submitting the data.<br>
+      So let's simulate it. Please fill in the form fields and before submit, close your browser and come back again to see that your data are still there.
+  </p>
+<form>
+  <p>
+  	<b>Text field</b><br>
+    <input type="text" size="30">
+  </p>
+  <p>
+  	<b>Password field</b><br>
+    <input type="password" size="30">
+  </p>
+  <p>
+  	<b>Radio Group 1</b><br>
+    <input type="radio" name="group_1">Option 0<br>
+    <input type="radio" name="group_1">Option 1<br>
+    <input type="radio" name="group_1">Option 2<br>
+    <input type="radio" name="group_1">Option 3
+  </p>
+  <p>
+  	<b>Radio Group 2</b><br>
+    <input type="radio" name="group_2">Option 4<br>
+    <input type="radio" name="group_2">Option 5<br>
+    <input type="radio" name="group_2">Option 6<br>
+    <input type="radio" name="group_2">Option 7
+  </p>  
+  <p>
+  	<b>Checkbox buttons</b><br>
+    <input type="checkbox">Option 8<br>
+    <input type="checkbox">Option 9<br>
+    <input type="checkbox">Option 10<br>
+    <input type="checkbox">Option 11
+  </p>
+  <p>
+  <b>Textarea</b><br>
+    <textarea rows="4" cols="40"></textarea>
+  </p>
+  <p>
+  <b>Select</b><br>
+    <select>
+      <option>USA</option>
+      <option>CHN</option>
+      <option>JPN</option>
+      <option>DEU</option>
+      <option>FRA</option>
+      <option>GBR</option>
+      <option>BRA</option>
+    </select>
+  </p>
+    <p>
+  <b>Select multiple</b><br>
+    <select size="7" multiple>
+      <option>green</option>
+      <option>blue</option>
+      <option>black</option>
+      <option>white</option>
+      <option>yellow</option>
+      <option>purple</option>
+      <option>Other</option>
+    </select>
+  </p>
+  <p>
+      <b>Attach file - <span style="color:red">NOT SUPPORTED</span></b><br>
+    <input type="file">
+  </p>
+  <p>
+  	<b>Buttons</b><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </p>
+</form>
+  <p>
+      This example serves only to demonstrate how the jsRemember works. Submitting this form will clear all stored data from your browser.
+  </p>
+</body>
+</html>
